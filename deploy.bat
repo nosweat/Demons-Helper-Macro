@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole  --uac-admin --version-file=version.txt -i demons_helper.ico --add-data "demons_helper.ico;." demons_helper.py
